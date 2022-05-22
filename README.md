@@ -20,7 +20,7 @@ Then navigate to http://localhost:3000 in your browser.
 
 ## Build the docker image
 ```powershell
-$version="1.0.0"
+$version="1.0.1"
 $appname="acrplayeconomy"
 docker build -t "$appname.azurecr.io/play.frontend:$version" .
 ```
